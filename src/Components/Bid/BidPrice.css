@@ -1,0 +1,65 @@
+.price-container {
+    height: 20.625rem;
+}
+
+.priceTop {
+    height: 8.813rem;
+}
+
+.nowPrice, .immediatePrice {
+    height: 4.375rem;
+    font-size: 1.25rem;
+}
+
+.nowPrice {
+    position: relative;
+}
+
+.nowLabel {
+    position: absolute;
+    bottom: 0.5rem;
+}
+
+.price1 {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0;
+}
+
+.price2 {
+    float: right;
+}
+.endTime {
+    width: 26.938rem;
+    height: 1.938rem;
+    background-color: #F2F2F2;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.813rem;
+    position: relative;
+    right: 0.5212rem;
+}
+
+.bidPrice-container {
+    height: 4.063rem;
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+}
+
+.inputBid {
+    width: 18.75rem;
+    height: 2.25rem;
+    text-align: right;
+    border-radius: 0.5rem;
+}
+
+.bidHigh {
+    width: 18.75rem;
+    height: 1.063rem;
+    font-size: 0.875rem;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+}

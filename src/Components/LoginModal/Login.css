@@ -1,0 +1,189 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1; /* 모달을 로그인 화면 위에 표시하기 위해 z-index 추가 */
+}
+
+.modal-content {
+  width: 36rem;
+  height: 42.875rem;
+  flex-shrink: 0;
+  border-radius: 1.875rem;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2; /* 모달을 로그인 화면 위에 표시하기 위해 z-index 추가 */
+}
+
+.Xbutton{
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 1.81rem;
+  margin-left: 30.51rem;
+}
+
+.Login-Logo {
+  width: 4.6875rem;
+  height: 2.4375rem;
+  flex-shrink: 0;
+  margin-right: 1.5rem;
+  margin-top: 2.88rem;
+}
+
+.IdInput, .PwInput{
+  width: 27.25rem;
+  height: 3.0625rem;
+  flex-shrink: 0;
+  border-radius: 6.25rem;
+  background: #F2F2F2;
+  border: transparent;
+  padding-left: 1.5rem;
+
+}
+
+.IdInput{
+  margin-top: 2.7rem;
+}
+
+.PwInput{
+  margin-top: 1.13rem;
+}
+
+.IdInput::placeholder,.PwInput::placeholder{
+
+  color: #000;
+  font-family: Pretendard Variable;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.LoginButton{
+  width: 28.75rem;
+  height: 3.0625rem;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 6.25rem;
+  background: #000;
+  margin-top: 2.38rem;
+  cursor: pointer;
+}
+
+.LoginButton span {
+  width: 2.6875rem;
+  height: 1.0625rem;
+  flex-shrink: 0;
+  color: #FFF; 
+  font-family: Pretendard Variable;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.KakaoButton {
+  display: flex;
+  flex-direction: row;
+  width: 28.75rem;
+  height: 3.0625rem;
+  flex-shrink: 0;
+  border-radius: 6.25rem;
+  border: 1px solid #000;
+  background: #FFF;
+  align-items: center; 
+  justify-content: center;
+  margin-top: 1.13rem;
+  cursor: pointer;
+}
+
+.LoginInput {
+  align-items: center; 
+  display: flex; 
+  flex-direction: column; 
+}
+
+
+.KakaoButton::placeholder {
+  color: #040404;
+  font-family: Pretendard Variable;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 6.375rem;
+  height: 1.0625rem;
+  flex-shrink: 0;
+}
+
+.KakaoImage {
+  width: 1.375rem;
+  height: 1.375rem;
+  flex-shrink: 0;
+  margin-right: 0.2rem;
+
+}
+
+.OrLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.19rem;
+}
+
+.login-gray-line1,
+.login-gray-line2 {
+  width: 12rem;
+  height: 0.0625rem;
+}
+
+.or {
+  color: #808080;
+  text-align: center;
+  font-family: "Pretendard Variable";
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.JoinTextBox{
+  color: #000;
+  text-align: center;
+  font-family: "Pretendard Variable";
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.05313rem;
+  margin-top: 3.25rem;
+}
+
+.LogintoJoin{
+  text-decoration-line: underline;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #000;
+  font-family: "Pretendard Variable";
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.05313rem;
+  text-decoration-line: underline;
+  cursor: pointer;
+}

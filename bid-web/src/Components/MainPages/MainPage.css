@@ -1,0 +1,204 @@
+.MainPages{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-box {
+  position: relative;
+  width: 100%;
+  height: 34.0625rem;
+  flex-shrink: 0;
+  background: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-box-message,
+.trendy-text {
+  color: #000;
+  text-align: center;
+  font-family: "Pretendard Variable";
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem;
+  letter-spacing: 0.04688rem;
+}
+
+.bid {
+  color: #000;
+  font-family: "Abril Fatface";
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.5rem;
+  letter-spacing: 0.05625rem;
+}
+
+.sell-button {
+  width: 7.875rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 2.46875rem;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-family: "Pretendard Variable";
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration-line: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.second-box {
+  width: 120rem;
+  height: 258rem;
+  background: #fff;
+}
+
+.BlackText {
+  margin-top: 7rem;
+  margin-bottom: 0rem;
+  color: #000;
+  text-align: center;
+  font-family: "Pretendard Variable";
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.GrayText {
+  margin-top: 0rem;
+  margin-bottom: 3.16rem;
+  color: #808080;
+  text-align: center;
+  font-family: "Pretendard Variable";
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Product {
+  width: calc(25% - 2.92rem);
+  max-width: 16.8875rem;
+  height: 22.58369rem;
+  flex-shrink: 0;
+  background: #e6e6e6;
+  margin: 0.92rem;
+  transition: background 0.3s; /* 부드러운 전환 효과 */
+
+  &:hover {
+    background: #b3b3b3;
+  }
+}
+
+.Product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.16rem;
+  width: 100rem;
+}
+
+.ArrowImage {
+  width: 0.9375rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+  stroke-width: 4px;
+  stroke: #808080;
+}
+
+.ArrowButton {
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5.31rem;
+}
+
+.second-box {
+  position: relative;
+  width: 100%;
+  height: 40.5625rem;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9.26rem;
+}
+
+.second-box-contents {
+  width: 83.5rem;
+  height: 16.6rem;
+  margin-top: 12.2rem;
+  margin-bottom: 12.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.BrandItem {
+  width: 16.5625rem;
+  height: 3.325rem;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Pretendard Variable";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.simple-line {
+  width: 1.875rem;
+  flex-shrink: 0;
+  stroke-width: 2.5px;
+  stroke: #fff;
+  margin-top: 4.32rem;
+  margin-left: 0;
+}
+
+.BrandButtonContainer {
+  width: 83.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.BrandButton {
+  height: 1.63525rem;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  margin-top: 7.35rem;
+  margin-right: 11rem;
+  margin-left: 0;
+  padding: 0;
+  align-items: center;
+
+  &:hover {
+    text-decoration: underline;
+    color: inherit;
+  }
+}

@@ -1,0 +1,86 @@
+/* Header */
+.header {
+    height: 10.94rem;
+    width: full;
+    background-color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10.94rem;
+    margin: auto;
+}
+
+.logo {
+    width: 5.4375rem;
+    height: 2.8125rem;
+    justify-content: center;
+    margin-right: 4.31rem;
+}
+
+/* SEARCHBAR */
+.searchBar {
+    width: 40.125rem;
+    height: 2.6875rem;
+    border-radius: 6.25rem;
+    border: 2px solid black;
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    padding-right: 1rem;
+    margin-right: 5.37rem;
+}
+
+.searchIcon {
+    width: 1.12204rem;
+    height: 1.10423rem;
+    margin-left: 1.94rem;
+    
+}
+
+.searchInput {
+    font-size: 1.25rem;
+    text-align: left;
+    border: none;
+    outline: none;
+    margin-left: 1.04rem;
+    flex-grow: 1;
+}
+
+/* MENU BAR */
+.menuBar {
+    display: flex;
+    justify-content: space-between;
+    gap: 3.62rem;
+    margin-right: 6.44rem;
+}
+
+.sell-menu {
+    color: #E60C0C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu {
+    /*"grid grid-row-4 gap-3 p-3 items-center rounded-xl bg-[#F6F6F9] border-[#CACAD0] border-2 border-solid"*/
+    text-decoration: none;
+    color: black;
+}
+
+/* MYPAGE BAR */
+
+.mypageBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.56rem;
+}
+
+.mypage {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,290 @@
+.ProductManager {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.ProductLabel {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 88.75rem;
+  height: 6.6275rem;
+  margin-top: 4.69rem;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.LabelsLabel {
+  display: flex;
+  flex-direction: row;
+  width: 16.8rem;
+  height: 2rem;
+  margin-left: 0.69rem;
+}
+
+.product-manager-image1 {
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+.UsersProduct {
+  color: #000;
+  font-family: "Pretendard Variable";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0.69rem;
+}
+
+.LabelBox {
+  display: flex;
+  align-items: center;
+  width: 88.75rem;
+  height: 3.4375rem;
+  flex-shrink: 0;
+  background: #f7f7f7;
+  margin-top: 1.69rem;
+}
+
+.ProductInformation,
+.HighestPrice,
+.BuyNum,
+.FavoriteNum {
+  color: #000;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ProductInformation {
+  margin-left: 23.81rem;
+  display: flex;
+  width: 5.4375rem;
+  height: 2.3125rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.HighestPrice {
+  display: flex;
+  width: 9.375rem;
+  height: 2.375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 21.69rem;
+}
+
+.BuyNum {
+  display: flex;
+  width: 9.375rem;
+  height: 2.375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 2.37rem;
+}
+
+.FavoriteNum {
+  display: flex;
+  width: 9.375rem;
+  height: 2.375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 2.37rem;
+}
+
+.ProductContainerinner {
+  width: 88.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ProductContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.87rem;
+}
+
+.product-delete-container {
+  display: flex;
+  flex-direction: column;
+  width: 2.3125rem;
+  height: 2.3125rem;
+  margin-left: 2rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-weight: normal;
+  white-space: nowrap;
+  padding: 0;
+}
+
+.product-delete {
+  width: 0.5625rem;
+  height: 0.5625rem;
+  flex-shrink: 0;
+  margin-bottom: 0.4rem;
+}
+
+.product-delete-text {
+  color: #808080;
+  text-align: center;
+  font-family: "Pretendard Variable";
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.04063rem;
+}
+
+.product-image {
+  width: 9.25rem;
+  height: 9.25rem;
+  flex-shrink: 0;
+  margin-left: 3.12rem;
+}
+
+.product-information {
+  margin-left: 7.06rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 왼쪽에 붙이기 */
+}
+
+.product-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.product-time {
+  margin-top: 0.75rem;
+  width: 16.73388rem;
+  height: 2.3125rem;
+  flex-shrink: 0;
+  color: #e60c0c;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link-to-product {
+  max-width: 1.69rem;
+  color: #000;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  font-weight: normal;
+  white-space: nowrap;
+  margin-top: 1.69rem;
+}
+
+.highest-price,
+.buy-num {
+  color: #000;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.highest-price {
+  margin-left: 7.8rem;
+  display: flex;
+  width: 9.375rem;
+  height: 2.375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.buy-num {
+  margin-left: 2.37rem;
+  display: flex;
+  width: 9.375rem;
+  height: 2.375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.like-num-box {
+  margin-left: 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Like {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.2rem;
+}
+
+.like-num {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0.3rem;
+}
+
+.product-line {
+  margin-top: 3.87rem;
+}
+
+.ProductArrows {
+  width: 88.75rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 4.81rem;
+  justify-content: space-between;
+}
+
+.product-arrow-left-button {
+  width: 1.5rem;
+  height: 2.4895rem;
+  flex-shrink: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}
+
+.product-arrow-right-button {
+  width: 1.5rem;
+  height: 2.4895rem;
+  flex-shrink: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}

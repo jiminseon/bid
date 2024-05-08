@@ -1,0 +1,309 @@
+.orderPage {
+  width: full;
+  height: 300vh;
+}
+
+.orderPage-containerTop {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.orderPage-container {
+  width: 84.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4.688rem;
+}
+
+.orderItemTop {
+  height: 23.063rem;
+}
+
+.orderItemTitle {
+  height: 3.188rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.orderItem-container {
+  height: 19.875rem;
+  border-bottom: solid 0.063rem #CCCCCC;
+}
+
+.orderItemBar {
+  height: 3.438rem;
+  background-color: #F7F7F7;
+  display: flex;
+  justify-content: center;
+}
+
+.itemBar {
+  width: 47.563rem;
+}
+
+.priceBar, .myBidBar , .stateBar {
+  width: 9.375rem;
+  margin-right: 2.375rem;
+}
+
+
+.itemBar, .priceBar, .myBidBar , .stateBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orderItem {
+  height: 16.438rem;
+  display: flex;
+  justify-content: center;
+}
+
+.orderImg {
+  width: 20.375rem;
+}
+
+.orderInfo {
+  width: 27.188rem;
+}
+
+.orderTitle {
+  height: 1.875rem;
+  font-size: 1.563rem;
+  font-weight: bold;
+  margin-top: 4.063rem;
+}
+
+.orderEndTime {
+  height: 2.313rem;
+  font-size: 0.938rem;
+  color: red;
+  margin-top: 0.75rem;
+}
+
+.orderShortcut {
+  margin-top: 1.688rem;
+}
+
+.orderPrice, .orderMyBid, .orderState {
+  width: 9.375rem;
+  margin-right: 2.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DeliPay-container {
+  display: flex;
+  margin-top: 5.688rem;
+}
+
+.deliveryInfoTop {
+  width: 57.375rem;
+  height: 59.375rem;
+}
+
+.deliveryInfo-container {
+  width: 49.688rem;
+}
+
+.paymentInfoTop {
+  width: 27.125rem;
+}
+
+.ordererTop {
+  height: 23.625rem;
+}
+
+.ordererTitle, .addressTitle {
+  height: 3.188rem;
+  border-bottom: solid 0.063rem #CCCCCC;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+}
+
+.paymentInfotTop-Title {
+  height: 3.188rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+}
+
+.paymentTop {
+  width: 27.125rem;
+  height: 25.813rem;
+  box-shadow: 0 0 0.313rem #CCCCCC;
+  border: none;
+  border-radius: 1.25rem;
+}
+
+.payment-container {
+  width: 22.875rem;
+  height: 25.813rem;
+  margin: auto;
+}
+
+.paymentTitle-container {
+  height: 3.125rem;
+  padding-top: 3rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.finalPayTitle {
+  width: 40%;
+}
+
+.finalPay {
+  width: 59%;
+  color: red;
+  text-align: right;
+}
+
+.paymentDetailTop {
+  height: 8.374rem;
+  display: flex;
+  flex-direction: column;
+  border-top: solid 0.063rem #CCCCCC;
+  border-bottom: solid 0.063rem #CCCCCC;
+  padding-top: 2.313rem;
+  padding-bottom: 2.313rem;
+}
+
+
+.paymetDetail-container {
+  height: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.125rem;
+}
+
+.payDetailLeft {
+  width: 40%;
+}
+
+.payDetailRight {
+  width: 59%;
+  text-align: right;
+}
+
+.payBtn-container {
+  margin-top: 1.563rem;
+  float: right;
+}
+
+.payBtn {
+  width: 6.125rem;
+  height: 2.125rem;
+  border-radius: 6.25rem;
+  background-color: #000;
+  color: #FFFFFF;
+  border: none;
+}
+
+.orderer-container {
+  width: 44.75rem;
+  padding-top: 2.813rem;
+}
+
+.addContainer {
+  padding-top: 2.563rem;
+}
+
+.ordererName, .ordererPhone, .ordererEmail,
+.recipientName, .recipientPhone, .deliverMsg, .deliverAdd {
+  height: 2.813rem;
+  display: flex;
+  align-items: center;
+}
+
+.ordererName, .ordererPhone, .recipientName {
+  margin-bottom: 1.25rem;
+}
+
+.dot {
+  width: 0.219rem;
+  height: 0.219rem;
+  background-color: red;
+  margin-right: 0.469rem;
+}
+
+.orderLabelClassName {
+   width: 9.625rem;
+   font-size: 1.125rem;
+}
+
+.orderInput, .deliverAdderess, .deliverAddPlus {
+  width: 35.125rem;
+  height: 2.813rem;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 0.625rem;
+  padding-left: 1rem;
+}
+
+.newAdd {
+  width: 6.313rem;
+  height: 2.125rem;
+  border: 1px solid #000;
+  border-radius: 6.25rem;
+  background-color: #FFFFFF;
+  margin-left: 27rem;
+}
+
+.ordererSame {
+  width: 7.375rem;
+  height: 2.125rem;
+  border: 1px solid #000;
+  border-radius: 6.25rem;
+  background-color: #FFFFFF;
+  margin-left: 1.063rem;
+}
+
+.recipientPhone {
+  margin-bottom: 2.563rem;
+}
+
+.deliverAdd {
+  margin-bottom: 1.063rem;
+}
+
+.deliverZoncode {
+  width: 27.956rem;
+  height: 2.813rem;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 0.625rem;
+  padding-left: 1rem;
+
+}
+
+.zoneBtn {
+  width: 7.125rem;
+  height: 2.313rem;
+  background-color: #000;
+  color: #FFFFFF;
+  border-radius: 6.25rem;
+  margin-left: 1.044rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deliverAdderess, .deliverAddPlus {
+  margin-left:10.313rem;
+}
+
+.deliverAdderess {
+  margin-bottom: 1.063rem;
+}
+
+.deliverAddPlus { 
+  margin-bottom: 2.563rem;
+}
+

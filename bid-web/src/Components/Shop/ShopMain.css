@@ -1,0 +1,108 @@
+.goodsComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 19rem;
+  height: 31.56rem;
+}
+
+.goodsImg {
+  width: full;
+  height: 25.3125rem;
+  background-color: #E6E6E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goodsTimeBox {
+  width: full;
+  height: 1.75rem;
+  margin-top: 0.81rem;
+  display: flex;
+  justify-items: start;
+  align-items: center;
+  padding-left: 0.19rem;
+  background-color: #F4F4F4;
+}
+
+.goodsTimeText {
+  color: #E40C0C;
+  font-size: 0.875rem;
+}
+
+.goodsName {
+  width: 4.5rem;
+  height: 1.8125rem;
+  margin-top: 0.5rem;
+  margin-left: 0.19rem;
+  font-size: 1.5rem;
+}
+
+.goodsPrice {
+  width: auto;
+  height: 1.1875rem;
+  margin-top: 0.19rem;
+  margin-left: 0.19rem;
+  font-size: 1rem;
+}
+
+.goodsLikeDiv {
+  padding: 0.44rem;
+  width: 2.4425rem;
+  height: 2.5675rem;
+  margin-top: 1.22rem;
+}
+
+/* 상품 컴포넌트에서 '이름, 가격, 관심상품 표시' row로 묶은 div */
+.goodsNamePriceLike {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 상품 컴포넌트에서 '이름, 가격' col로 묶은 div */
+
+.goodsNamePrice {
+  display: flex;
+  flex-direction: column;
+}
+
+.goodsGrid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4.31rem;
+  margin: auto;
+  margin-top: 2.62rem;
+  margin-bottom: 8.56rem;
+  width: 88.93rem;
+}
+
+.sequenceCom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.7rem;
+  border: none;
+  font-size: 1.25rem;
+  background-color: white;
+}
+
+.sequenceDot {
+  color: #808080;
+}
+
+.sequenceName {
+  color: #808080;
+}
+
+.sequence-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  margin: auto;
+  margin-top: 3.44rem;
+  width: 88.93rem;
+}

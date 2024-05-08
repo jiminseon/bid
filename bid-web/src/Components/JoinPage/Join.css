@@ -1,0 +1,296 @@
+.Entire-Join{
+    width: 100%;
+}
+
+
+.Join {
+    display: flex;
+    flex-direction: column;
+    max-width: 31.25rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-line {
+    width: 100%;
+    height: 0.0625rem;
+    background: #CCC;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5.37rem;
+}
+
+.welcome {
+    width: 16.5rem;
+    height: 2.0625rem;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+}
+
+.join-profile {
+    width: 8.8125rem;
+    height: 8.8125rem;
+    flex-shrink: 0;
+    margin-top: 2.75rem;
+}
+
+.ProfileButton {
+    width: 6.5rem;
+    height: 2.0625rem;
+    flex-shrink: 0;
+    border-radius: 6.25rem;
+    background: #F2F2F2;
+    border: 0;
+    color: #8E8E8E;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+.ProfileButtonContainer {
+    margin-top: 1.56rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.InputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 좌측 정렬 */
+    margin-top: 2.88rem;
+}
+
+.InputWhat {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: "Pretendard Variable";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.join-red-dot {
+    margin-right: 0.5rem;
+}
+
+.InputField, .InputEmail2 {
+    width: 30.44rem;
+    height: 2.8125rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #F2F2F2;
+    margin-top: 0.81rem;
+    padding-left: 0.81rem;
+    color: #808080;
+
+    font-family: "Pretendard Variable";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none; 
+
+}
+
+.EMCheckButton{
+    background: none;
+    color: #000;
+    font-family: "Pretendard Variable";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    border: none; 
+    margin-left: 2.5rem;
+    cursor: pointer;
+    margin-top: 0.9rem;
+}
+
+.ADCheckButton {
+    width: 7.125rem;
+    height: 2.3125rem;
+    flex-shrink: 0;
+    border-radius: 6.25rem;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.InputEmail, .InputAddress{
+    width: 21.5rem;
+    height: 2.8125rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #F2F2F2;
+    margin-top: 0.81rem;
+    padding-left: 0.81rem;
+    color: #808080;
+    background: #F2F2F2;
+    color: #808080;
+    font-family: "Pretendard Variable";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none; 
+}
+
+.HalfField{
+    width: 14.19rem;
+    height: 2.8125rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #F2F2F2;
+    color: #808080;
+    font-family: "Pretendard Variable";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none; 
+    padding-left: 0.81rem;
+    margin-top: 0.81rem;
+}
+
+.InputAccount {
+    display: flex;
+    gap: 1.25rem; 
+}
+
+.join-line2{
+    width: 0.09375rem;
+    height: 4.3125rem;
+    margin-top: 4.13rem;
+}
+
+.Information{
+    display: flex;
+    width: 16.5rem;
+    height: 2.0625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.05625rem;
+    margin-top: 3.62rem;
+    margin-bottom: 2.88rem;
+}
+
+.EmailContainer{
+    margin-top: 5.31rem;
+    margin-bottom: 1.18rem;
+
+}
+
+.AccountContainer{
+    margin-top: 4.06rem;
+}
+
+.AddressContainer{
+    margin-top: 2.87rem;
+}
+
+
+.JoinButton{
+    width: 7.5rem;
+    height: 2.6875rem;
+    flex-shrink: 0;
+    border-radius: 6.25rem;
+    background: #E40C0C;
+    color: #FFF;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration-line: none;
+    margin-top: 6.69rem;
+    margin-left: auto;
+    border: none;
+}
+
+.ValidationIcon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 0.75rem;
+    height: 0.625rem;
+    flex-shrink: 0;
+    fill: #808080;
+    margin-right: 1.1rem;
+    margin-top: 0.35rem;
+    cursor: pointer;
+}
+
+.BankInputContainer {
+    position: relative;
+  }
+  
+.ErrorMessages{
+    color: #E40C0C;
+    font-family: "Pretendard Variable";
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 0.94rem;
+}
+
+.EmailHeader {
+    display: flex; /* 요소들을 가로로 배치하기 위해 flex 사용 */
+    align-items: center; /* 세로 중앙 정렬 */
+}
+
+.PWcheck, .NicnameCheck{
+    display: flex; /* 요소들을 가로로 배치하기 위해 flex 사용 */
+    align-items: center; /* 세로 중앙 정렬 */
+    margin-top: 2.88rem;
+}
+
+.NextLine{
+    display: flex;
+    flex-direction: column; /* 가로로 요소들을 나열하도록 설정 */
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: center; /* 가로 중앙 정렬 */
+}

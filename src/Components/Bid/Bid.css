@@ -1,0 +1,251 @@
+.bidPage {
+    width: full;
+    height: 300vh;
+}
+
+.bidPage-containerTop {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.bidPage-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.item-container {
+    height: 62.063rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 8.81rem;
+}
+
+.itmeImg-container {
+    width: 39.5rem;
+    height: 48.063rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 14.75rem;
+}
+.itemImg {
+    width: 33.25rem;
+    height: 44.125rem;
+    background-color: #CCCCCC;
+}
+
+.itemInfo-container {
+    width: 26.938rem;
+    height: 44.125rem;
+}
+
+.itemInfo {
+    width: 25.813rem;
+    height: 44.125rem;
+    text-align: left;
+}
+
+.title {
+    font-size: 1.875rem;
+    height: 3.375rem;
+    border-bottom: solid 0.063rem #CCCCCC;
+    font-weight: bold;
+}
+
+
+.bidBtn {
+    width: 26.938rem;
+    height: 2.5rem;
+    margin-bottom: 4.688rem;
+}
+
+
+.bidBtn, .buyBar {
+    display: flex;
+    justify-content: center;
+}
+
+.bidding, .buyNow, .favorite, .linkCopy, .deleteBtn {
+    width: 5.938rem;
+    height: 2.5rem;
+    font-size: 0.938rem;
+    border: none;
+    background-color: #F2F2F2;
+}
+
+.bidding, .buyNow, .favorite {
+    margin-right: 1.063rem;
+}
+
+.deleteBtn {
+    width: 5.938rem;
+    height: 2.5rem;
+    font-size: 0.938rem;
+    border: none;
+    background-color: #000000;
+    color: white;
+    margin-left: 1.063rem;
+}
+
+.toast {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    width: 18.75rem;
+    height: 3rem;
+    background: #000000;
+    color: #fff;
+    border-radius: 1.5rem;
+    border: 1px solid #000;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.938rem;
+  }
+.modalTop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; /* 모달을 로그인 화면 위에 표시하기 위해 z-index 추가 */
+}
+
+.modalContainer {
+    width: 25.75rem;
+    height: 14.5rem;
+    flex-shrink: 0;
+    border-radius: 1.875rem;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2; /* 모달을 로그인 화면 위에 표시하기 위해 z-index 추가 */
+}
+
+.deleteTitle {
+    width: 13.29rem;
+    height: 2.813rem;
+    margin-top: 4.063rem;
+    font-size: 0.938rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.depositTitle {
+    width: 13rem;
+    height: 2.813rem;
+    margin-top: 4.063rem;
+    font-size: 0.938rem;   
+    text-align: center;
+}
+
+.delBtnContainer {
+    width: 12.5rem;
+    height: 2.063rem;
+    margin-top: 1.688rem;
+}
+
+.cancel, .delBtn {
+    width: 5.313rem;
+    height: 2.063rem;
+    border-radius: 6.25rem;
+    font-size: 0.938rem;
+    border: 1px solid #000;
+    justify-content: center;
+}
+
+.cancel {
+    background-color: #FFF;
+    margin-right: 1.875rem;
+}
+
+.delBtn {
+    background-color: #000;
+    color: #FFF;
+}
+
+.ItemDetail {
+    height: 9rem;
+}
+
+.detailBox {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.938rem;
+}
+
+.leftBox, .rightBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstBox, .secondBox, .thirdBox, .fourthBox {
+    width: 6.25rem;
+    font-size: 0.938rem;
+}
+
+.secondBox, .fourthBox {
+    color: #808080;
+}
+
+.bidDetail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.detailText-containerTop{
+    width: 85.313rem;
+    margin-bottom: 6.688rem;
+}
+
+.detailText {
+    width: 43.813rem;
+    height: 19.375rem;
+    margin: 0 3.125rem;
+    border-top: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+.textTitle {
+    font-size: 1.563rem;
+    font-weight: bold;
+    margin-top: 2.188rem;
+    margin-bottom: 2.938rem;
+}
+
+.textContent {
+    font-size: 1.25rem;
+}
+
+.detailImage-containerTop {
+    width: 85.313rem;
+}
+
+.detailImage {
+    height: auto;
+    margin: 0 3.125rem;
+}
+
+.imageTitle {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1.875rem;
+}
+
+.bigimage {
+    width: 40.688rem;
+    height: 54rem;
+    object-fit: contain;
+    object-position: 10% 50%;
+}

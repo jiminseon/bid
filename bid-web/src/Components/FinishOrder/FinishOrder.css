@@ -1,0 +1,103 @@
+.finishOrderTop-container {
+  width: full;
+  height: 300vh;
+}
+
+.finishOrderTop {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.finishOrder-container {
+  width: 31.375rem;
+  height: 36.563rem;
+  box-shadow: 0 0 0.313rem #CCCCCC;
+  border: none;
+  border-radius: 1.25rem;
+  margin-top: 6.5rem;
+}
+
+.finshOrder {
+  width: 22.875rem;
+  height: 36.563rem;
+  margin: auto;
+}
+
+.finishOrderTitle {
+  height: 3.375rem;
+  padding-top: 3.188rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.finishOrderInfo {
+  height: 21.375rem;
+  display: flex;
+  flex-direction: column;
+  border-top: solid 0.063rem #CCCCCC;
+  border-bottom: solid 0.063rem #CCCCCC;
+  font-size: 0.938rem;
+  padding-top: 2.813rem;
+  padding-bottom: 2.813rem;
+  box-sizing: border-box;
+  margin-bottom: 2.25rem;
+}
+
+.finishOrderInfo-container {
+  height: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.25rem;
+}
+
+.finishAddDetail-container {
+  height: 8.75rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-bottom: 2.25rem;
+}
+
+.finishOrderLeft {
+  width: 40%;
+}
+
+.finishOrderRight {
+  width: 59%;
+  text-align: right;
+}
+
+.finshiOrderNum {
+  width: 59%;
+  text-align: right;
+  color: #E60C0C;
+}
+
+.finishAdd-container  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.finishAddPlus-container {
+  text-align: right;
+  margin-top: 0.625rem;
+}
+
+.addplus {
+  margin-bottom: 0.625rem;
+}
+
+.okBtn-container {
+  text-align: right;
+}
+.okBtn {
+  width: 5.263rem;
+  height: 2.063rem;
+  background-color: #000000;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6.25rem;
+}

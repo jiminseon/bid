@@ -1,0 +1,457 @@
+.MyPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.MyPageBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 88.75rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.ShowMoney {
+  margin-top: 3.5rem;
+  width: 46.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile-change {
+  cursor: pointer;
+  border: none; /* 테두리 없애기 */
+  background: transparent; /* 배경 투명하게 */
+}
+
+.mypage-profile1 {
+  width: 7.3125rem;
+  height: 7.3125rem;
+  flex-shrink: 0;
+}
+
+.mypage-marker1 {
+  width: 1.8125rem;
+  height: 1.8125rem;
+  flex-shrink: 0;
+}
+
+.MyBid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 17rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.EditBar {
+  width: 89rem;
+  margin-top: 4.5rem;
+  display: flex; /* 컨텐츠를 가로로 배치 */
+  justify-content: space-between; /* 양 끝에 컨텐츠가 붙도록 설정 */
+}
+
+.EditBarContent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.UsersBid1 {
+  color: #000;
+  font-family: "Pretendard Variable";
+  font-size: 1.4375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 0.69rem;
+}
+
+.UsersBid2 {
+  color: #000;
+  font-family: "Pretendard Variable";
+  font-size: 1.4375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 0.5rem;
+}
+
+.EditButton {
+  color: #808080;
+  font-family: "Pretendard Variable";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  border: none; /* 테두리 없애기 */
+  background: transparent; /* 배경 투명하게 */
+  cursor: pointer;
+}
+
+.MoneyBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+}
+
+.MoneyBoxContent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 3.125rem;
+  height: 1.3rem;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Pretendard Variable";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.MoneyBoxContent2 {
+  width: 0.625rem;
+  margin-top: 1.95rem;
+  margin-bottom: 1.95rem;
+  background: #999;
+}
+
+.MoneyBoxContent3 {
+  display: flex;
+  width: 5.5rem;
+  height: 1.3rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: "Pretendard Variable";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.SelectBox {
+  display: flex;
+  width: 100%;
+  height: 11.625rem;
+  flex-direction: row;
+  justify-content: center;
+  background: #f7f7f7;
+  margin-top: 5.19rem;
+}
+
+.SelectBoxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 27rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mypage-money-image {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  flex-shrink: 0;
+}
+
+.mypage-line2 {
+  width: 0.0625rem;
+  height: 6.5625rem;
+}
+
+.EditBox,
+.ChargeBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 4.065rem;
+  width: 9rem;
+  cursor: pointer;
+  border: none; /* 테두리 없애기 */
+  background: transparent; /* 배경 투명하게 */
+}
+
+.EditText,
+.ChargeText {
+  color: #000;
+  margin-top: 1.19rem;
+  text-align: center;
+  -webkit-text-stroke-width: 0.10000000149011612;
+  -webkit-text-stroke-color: #000;
+  font-family: "Pretendard Variable";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.mypage-edit-image {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+}
+
+.ProductContainerinner {
+  width: 88.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.FinishedBidContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.87rem;
+}
+
+.product-delete-container {
+  display: flex;
+  flex-direction: column;
+  width: 2.3125rem;
+  height: 2.3125rem;
+  margin-left: 2rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-weight: normal;
+  white-space: nowrap;
+  padding: 0;
+}
+
+.product-delete {
+  width: 0.5625rem;
+  height: 0.5625rem;
+  flex-shrink: 0;
+  margin-bottom: 0.4rem;
+}
+
+.product-delete-text {
+  color: #808080;
+  text-align: center;
+  font-family: "Pretendard Variable";
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.04063rem;
+}
+
+.product-image {
+  width: 9.25rem;
+  height: 9.25rem;
+  flex-shrink: 0;
+  margin-left: 3.12rem;
+}
+
+.product-information {
+  margin-left: 7.06rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 왼쪽에 붙이기 */
+}
+
+.product-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.product-time {
+  margin-top: 0.75rem;
+  width: 16.73388rem;
+  height: 2.3125rem;
+  flex-shrink: 0;
+  color: #000000;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link-to-product {
+  max-width: 1.69rem;
+  color: #000;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  font-weight: normal;
+  white-space: nowrap;
+  margin-top: 1.69rem;
+}
+
+.PresentPrice,
+.MyHighestPrice {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.PresentPrice {
+  margin-left: 7.8rem;
+  display: flex;
+  width: 9.375rem;
+  height: 2.375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.MyHighestPrice {
+  margin-left: 2.37rem;
+  display: flex;
+  width: 9.375rem;
+  height: 2.375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.BuyButton {
+  width: 6.25rem;
+  height: 2.4375rem;
+  flex-shrink: 0;
+  color: #fff;
+  border-radius: 6.25rem;
+  background: #000;
+  text-align: center;
+  font-family: "Pretendard Variable";
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 4.19rem;
+  cursor: pointer;
+}
+
+.product-line {
+  margin-top: 3.87rem;
+}
+
+.ProductLable {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 88.75rem;
+  height: 6.6275rem;
+  margin-top: 4.69rem;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.LabelsLabel {
+  display: flex;
+  flex-direction: row;
+  width: 16.8rem;
+  height: 2rem;
+  margin-left: 0.69rem;
+}
+
+.product-manager-image1 {
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+.LabelBox {
+  display: flex;
+  align-items: center;
+  width: 88.75rem;
+  height: 3.4375rem;
+  flex-shrink: 0;
+  background: #f7f7f7;
+  margin: 0;
+  margin-top: 1.69rem;
+}
+
+.LabelsLabel {
+  color: #000;
+  font-family: "Pretendard Variable";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.FirstContent,
+.SecondContent,
+.ThirdContent,
+.LastContent {
+  color: #000;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.FirstContent {
+  margin-left: 23.81rem;
+  display: flex;
+  width: 5.4375rem;
+  height: 2.3125rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.SecondContent {
+  display: flex;
+  width: 9.375rem;
+  height: 2.375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 21.69rem;
+}
+
+.ThirdContent {
+  display: flex;
+  width: 9.375rem;
+  height: 2.375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 2.37rem;
+}
+
+.LastContent {
+  display: flex;
+  width: 9.375rem;
+  height: 2.375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 2.37rem;
+}

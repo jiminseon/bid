@@ -1,0 +1,15 @@
+#wrapper{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 2.8125rem;
+  }
+  footer{
+    height: 2.8125rem;
+    position : relative;
+    transform : translateY(-100%);
+  }
+
+  .layout {
+    width: 120rem;
+    height: auto;
+  }
